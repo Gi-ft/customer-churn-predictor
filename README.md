@@ -81,3 +81,11 @@ Beyond accuracy, the model should be assessed with metrics that matter for churn
 ## Contact
 
 For questions, suggestions, or feedback, feel free to open an issue in this repository.
+
+Dataset (where the data comes from, columns, target variable)
+Model Results (the accuracy, precision, recall and ROC-AUC your run produced)
+Running the App (the script uses Streamlit, so add streamlit run customer_churn_system1.py if that's how it launches)
+
+Docker (the repo has a Docker build workflow, so how to build and run the image)
+Known Issues (e.g. the 30 Ruff lint errors currently failing CI)
+License (replace "Add your license details here" with something like MIT)
