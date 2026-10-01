@@ -2,6 +2,8 @@
 
 A machine learning project for customer churn prediction using Python.
 
+This project is intended for experimentation and learning.
+
 ## Project Overview
 
 This project demonstrates building, training, and evaluating a model to predict whether a customer will churn based on input features.
