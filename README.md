@@ -54,3 +54,28 @@ jupyter notebook "churn setup.ipynb"
 ## License
 
 Add your license details here as needed.
+
+## Future Improvements
+
+- Experiment with additional algorithms such as Random Forest, Gradient Boosting, and XGBoost to compare performance against the baseline model.
+- Add hyperparameter tuning using GridSearchCV or RandomizedSearchCV.
+- Handle class imbalance with techniques like SMOTE or class weighting.
+- Package the trained model so it can be loaded for predictions without retraining.
+
+## Evaluation Metrics
+
+Beyond accuracy, the model should be assessed with metrics that matter for churn problems:
+
+- **Precision and recall**: to understand how many predicted churners are real, and how many real churners are caught.
+- **F1-score**: to balance precision and recall when classes are uneven.
+- **ROC-AUC**: to measure how well the model separates churners from non-churners across thresholds.
+
+## Troubleshooting
+
+- If `Activate.ps1` is blocked in PowerShell, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and try again.
+- If a package fails to install, upgrade pip first with `python -m pip install --upgrade pip`.
+- If the notebook does not open, confirm Jupyter is installed by running `pip install notebook`.
+
+## Contact
+
+For questions, suggestions, or feedback, feel free to open an issue in this repository.
