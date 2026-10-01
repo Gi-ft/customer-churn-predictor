@@ -90,3 +90,33 @@ Docker (the repo has a Docker build workflow, so how to build and run the image)
 Known Issues (e.g. the 30 Ruff lint errors currently failing CI)
 License (replace "Add your license details here" with something like MIT)
 
+## Dataset
+
+- **Source:** <where the data comes from, e.g. Kaggle Telco Customer Churn>
+- **Rows and columns:** <number of customers> customers, <number> features
+- **Target variable:** `Churn` (Yes/No), indicating whether the customer left.
+- **Key features:** <e.g. tenure, contract type, monthly charges, payment method>
+
+## Model Results
+
+Results from the latest run of `customer_churn_system1.py`:
+
+| Metric    | Score    |
+|-----------|----------|
+| Accuracy  | <value>  |
+| Precision | <value>  |
+| Recall    | <value>  |
+| F1-score  | <value>  |
+| ROC-AUC   | <value>  |
+
+Scores will vary slightly depending on the train/test split and random seed.
+
+## Running the App
+
+The project includes a Streamlit interface. After installing dependencies, launch it with:
+
+```powershell
+streamlit run customer_churn_system1.py
+```
+
+Then open the local URL shown in the terminal (usually `http://localhost:8501`).
