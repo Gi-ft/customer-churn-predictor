@@ -55,7 +55,7 @@ jupyter notebook "churn setup.ipynb"
 
 ## License
 
-Add your license details here as needed.
+This project is licensed under the MIT License.
 
 ## Future Improvements
 
@@ -80,15 +80,6 @@ Beyond accuracy, the model should be assessed with metrics that matter for churn
 
 ## Contact
 
-For questions, suggestions, or feedback, feel free to open an issue in this repository.
-
-Dataset (where the data comes from, columns, target variable)
-Model Results (the accuracy, precision, recall and ROC-AUC your run produced)
-Running the App (the script uses Streamlit, so add streamlit run customer_churn_system1.py if that's how it launches)
-
-Docker (the repo has a Docker build workflow, so how to build and run the image)
-Known Issues (e.g. the 30 Ruff lint errors currently failing CI)
-License (replace "Add your license details here" with something like MIT)
 
 ## Dataset
 
@@ -99,17 +90,7 @@ License (replace "Add your license details here" with something like MIT)
 
 ## Model Results
 
-Results from the latest run of `customer_churn_system1.py`:
-
-| Metric    | Score    |
-|-----------|----------|
-| Accuracy  | <value>  |
-| Precision | <value>  |
-| Recall    | <value>  |
-| F1-score  | <value>  |
-| ROC-AUC   | <value>  |
-
-Scores will vary slightly depending on the train/test split and random seed.
+Results will be added after the next full run of `customer_churn_system1.py`.
 
 ## Running the App
 
