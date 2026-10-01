@@ -2,7 +2,7 @@
 
 A machine learning project for customer churn prediction using Python.
 
-This project is intended for experimentation and learning.
+This project is intended for experimentation and learning purposes.
 
 ## Project Overview
 
