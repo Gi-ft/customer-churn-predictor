@@ -55,7 +55,7 @@ jupyter notebook "churn setup.ipynb"
 
 ## License
 
-Add your license details here as needed.
+This project is licensed under the MIT License.
 
 ## Future Improvements
 
